@@ -45,16 +45,6 @@ describe("POST /api/admin/alunos", () => {
       expect(respostaMatricula.body.alunoId).to.equal(resposta.body.id);
       expect(respostaMatricula.body.disciplinaId).to.equal(dados.disciplinaId);
 
-      const respostaLoginAluno = await request(app)
-        .post("/api/auth/login")
-        .send({
-          email: aluno.email,
-          senha: aluno.senha,
-        });
-
-      expect(respostaLoginAluno.status).to.equal(200);
-      expect(respostaLoginAluno.body).to.have.property("token");
-
       const alunoToken = await loginAluno(app, aluno.email, aluno.senha);
 
       expect(alunoToken).to.be.a("string");
