@@ -1,0 +1,20 @@
+[
+  {
+    "nome": "Aluno Teste 01",
+    "emailBase": "aluno.teste01",
+    "matriculaBase": "2026",
+    "senha": "123456",
+    "disciplinaId": "disciplina-matematica",
+    "tituloTrabalho": "Trabalho de Matemática 01",
+    "descricaoTrabalho": "Entrega automatizada do trabalho de matemática."
+  },
+  {
+    "nome": "Aluno Teste 02",
+    "emailBase": "aluno.teste02",
+    "matriculaBase": "2027",
+    "senha": "123456",
+    "disciplinaId": "disciplina-matematica",
+    "tituloTrabalho": "Trabalho de Matemática 02",
+    "descricaoTrabalho": "Segunda entrega automatizada do trabalho de matemática."
+  }
+]
